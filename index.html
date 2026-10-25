@@ -72,7 +72,7 @@
         btn.disabled = true;
         msg.textContent = "";
 
-        let url = "https://todoapp25oct20261.onrender.com/save";
+        let url = "https://todoapp25oct20262.onrender.com/save";
 
         let data = {
             task: task.value
@@ -111,7 +111,7 @@
         let info = document.getElementById("id_info");
         let msg = document.getElementById("id_msg");
 
-        let url = "https://todoapp25oct20261.onrender.com/findAll";
+        let url = "https://todoapp25oct20262.onrender.com/findAll";
 
         fetch(url)
         .then(res => {
@@ -144,7 +144,7 @@
 
     function delData(id) {
         if (confirm("r u sure ????")) {
-            let url = "https://todoapp25oct20261.onrender.com/" + id;
+            let url = "https://todoapp25oct20262.onrender.com//" + id;
 
             let options = {
                 method: "DELETE"
